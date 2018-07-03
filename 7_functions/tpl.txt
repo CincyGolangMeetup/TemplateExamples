@@ -1,0 +1,6 @@
+Original: {{ . }}
+Hello, {{title . }}!
+
+Hello, {{ upper . }}!
+
+{{ removeLetter . "i" }}
