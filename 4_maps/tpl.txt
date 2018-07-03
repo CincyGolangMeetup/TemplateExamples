@@ -1,0 +1,7 @@
+Raw Data:
+{{ . }}
+
+Colors:
+{{ range $k, $v := . }}
+    The hex code for {{ $k }} is {{ $v }}.
+{{ end }}

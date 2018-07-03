@@ -1,0 +1,5 @@
+Slice of structs:
+{{ $books := . }}
+{{ range $i, $val := $books }}
+    {{ $i }}: {{ $val.Name }} - {{ $val.Author }} {{ $val.Pages }}
+{{ end }}

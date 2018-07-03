@@ -1,0 +1,3 @@
+Title: {{ .Name }}
+Author: {{ .Author }}
+No of Pages: {{ .Pages }}
